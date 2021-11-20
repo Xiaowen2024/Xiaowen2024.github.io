@@ -1,0 +1,22 @@
+
+#background2{
+    position: absolute;
+    width: 1233px;
+    height: 707px;
+    left: -81px;
+    top: -4px;
+    background: #EAC8BC;
+}
+
+#logo {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 59px;
+    top: 23px;
+
+}
+
+h1 {
+    font-size: large;
+}

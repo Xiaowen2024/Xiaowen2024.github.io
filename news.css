@@ -1,0 +1,401 @@
+#nav {
+    width: 100%;
+}
+.navbar-item {
+    float: right;
+    font-family: Rubik;
+    font-style:normal;
+    font-weight: 1200;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #EAC8BC;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    margin-top: 2%;
+
+
+} 
+.navbar-item-on{
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-family: Rubik;
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 20px;
+
+    color: #E0A18B;
+    text-decoration: none;
+}
+#logo-items{
+    position: absolute;
+    margin-left: -10%;
+    margin-top:-20%;
+}
+#logo{
+    margin-left: 2%;
+}
+
+
+a{
+    text-decoration: none;
+    color:#EAC8BC;
+}
+
+#on {
+    text-decoration: none;
+    color: E0A18B;
+}
+
+#name {
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 7%;
+    font-family: Road Rage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 44px;
+    color: #EAC8BC;
+}
+
+#line {
+    width: 1156.5px;
+    height: 167.61px;
+    border: 8px solid #FFFFFF;  
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#box1{
+    margin-left: -20%;
+    margin-top: 50%;
+    width: 300px;
+    height: 500px;
+    background: #EAC8BC;
+    border-radius: 29px;
+}
+
+#box2{
+    margin-left: -45%;
+    margin-top: 30%;
+    width: 300px;
+    height: 500px;
+    background: #EAC8BC;
+    border-radius: 29px;
+}
+
+#box3{
+    margin-top: 3%;
+    margin-left: -15%;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+
+background: #EAC8BC;
+border-radius: 29px;
+}
+
+#text1{
+    margin-top: 40%;
+    margin-left: -16%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#text2{
+    margin-top: 35%;
+    margin-left: -16%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#text3{
+    margin-top: -1%;
+    margin-left: 5%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 1007px;
+    top: 550px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#text4{
+    margin-top: 37%;
+    margin-left: -16%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#text5{
+    margin-top: 42%;
+    margin-left: -16%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#text6{
+    margin-top: 50%;
+    margin-left: -10%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+
+#more_boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#more_box1{
+    margin-left: -20%;
+    margin-top: 40%;
+    width: 300px;
+    height: 500px;
+    background: #EAC8BC;
+    border-radius: 29px;
+}
+
+#more_box2{
+    margin-left: -45%;
+    margin-top: 60%;
+    width: 300px;
+    height: 500px;
+    background: #EAC8BC;
+    border-radius: 29px;
+}
+
+#more_box3{
+    margin-left: -15%;
+    margin-top: 20%;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+
+background: #EAC8BC;
+border-radius: 29px;
+}
+#more_text1{
+    margin-top: -5%;
+    margin-left: 1%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#more_text2{
+    margin-top: -5%;
+    margin-left: -4%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#more_text3{
+    margin-top: 62%;
+    margin-left: 5%;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 1007px;
+    top: 550px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+#end{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-family: Road Rage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+#text1_image{
+    position:absolute;
+    margin-left: -19.5%;
+    margin-top: 12%;
+    width: 18%;
+    height: 30%;
+}
+#text2_image{
+    position:absolute;
+    margin-left: -19.5%;
+    margin-top: 8%;
+    width: 18%;
+    height: 30%;
+}
+#text3_image{
+    position:absolute;
+    margin-left: -13.5%;
+    margin-top: 5%;
+    width: 18%;
+    height: 30%;
+}
+#text4_image{
+    position:absolute;
+    margin-left: -19.5%;
+    margin-top: 11%;
+    width: 18%;
+    height: 30%;
+}
+#text5_image{
+    position:absolute;
+    margin-left: -19.5%;
+    margin-top: 15%;
+    width: 18%;
+    height: 30%;
+}
+
+#text6_image{
+    position:absolute;
+    margin-left: -13.5%;
+    margin-top: 22%;
+    width: 18%;
+    height: 30%;
+}
+
+
+
+#p1{
+    position:absolute;
+    width: 17%;
+    margin-top: -15%;
+    margin-left: -2%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
+#p2{
+    position:absolute;
+    width: 17%;
+    margin-top: -15%;
+    margin-left: -7%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
+#p3{
+    position:absolute;
+    width: 17%;
+    margin-top: 23%;
+    margin-left: -12%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
+#p4{
+    position:absolute;
+    width: 17%;
+    margin-top: -14%;
+    margin-left: -2%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
+#p5{
+    position:absolute;
+    width: 17%;
+    margin-top: -14%;
+    margin-left: -7%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
+#p6{
+    position:absolute;
+    width: 17%;
+    margin-top: 40%;
+    margin-left: -13%;
+    font-family: Rubik;
+    color: #FFFFFF;
+    
+}
