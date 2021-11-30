@@ -1,0 +1,156 @@
+@keyframes load {
+    0% {
+        height: 50%;
+        left: 38%;
+    }
+    50% {
+        height: 20%;
+    }
+    100%{
+        opacity: 0;
+    
+    }
+}
+@keyframes disappear {
+    to {
+        display: none;
+    }
+}
+
+@keyframes show {
+    to {
+        visibility: visible;
+    }
+}
+
+#loader {
+    position: relative;
+    left: 28%;
+    top: 28%;
+    height: 18%;
+    animation: load 2s ease-out;
+}
+
+#nav {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    width: 100%;
+}
+#logo-items{
+    position: absolute;
+    margin-left: -10%;
+    margin-top:-20%;
+}
+#logo{
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    margin-left: 2%;
+}
+
+
+a{
+    text-decoration: none;
+    color:#EAC8BC;
+}
+
+#on {
+    text-decoration: none;
+    color: E0A18B;
+}
+
+#name {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 7%;
+    font-family: Road Rage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 44px;
+    color: #EAC8BC;
+}
+
+#background_vector {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    position: fixed;
+    top: -10%;
+    width: 100%;
+}
+ 
+#text {
+  
+    position: relative;
+    left: 55%;
+    top: 20%;
+    width: 50%;
+    color: #ffffff;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 71px;
+
+}
+
+#arrow {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    position: fixed;
+    top: 85%;
+    left: 48%;
+}
+
+#scroll {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    position: fixed;
+    top: 92%;
+    left: 48%;
+
+}
+
+#play {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    position:fixed;
+    height:  5%;
+    top: 3%;
+    left: 89%;
+}
+
+#stop {
+    animation: show 0s 2s forwards;
+    visibility: hidden;
+    position:fixed;
+    height:  5%;
+    top: 3%;
+    left: 93%;
+}
+
+.button.play {
+    top: 3%;
+    left: 93%;
+    box-sizing: border-box;
+    position: fixed;
+    height: 60%;
+    width: 28px;
+    height: 28px;
+    border-width: 14px 0px 14px 28px;
+    border-color: #ffffff #ffffff #ffffff #EAC8BC;
+  }
+
+
+#audio {
+    display: none;
+}
+  
